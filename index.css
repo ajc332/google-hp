@@ -1,6 +1,7 @@
 body {
     font: 13px arial, sans-serif;
     margin-top: 23px;
+    margin-left: 0px;
 }
 
 a {
@@ -21,7 +22,7 @@ a {
     font: 16px arial, sans-serif;
     display: block;
     margin: 0 auto;
-    width: 41%;
+    width: 34%;
     border: 1px solid #dfe1e5;
     border-radius: 22px;
 }
@@ -67,13 +68,37 @@ a:visited {
     color: #609;
 }
 
-#startnav {
-    padding-left: 16px;
+#sn1 {
+    margin-left: 10px;
+    padding-left: 15px;
 }
 
-#endnav {
+#sn2 {
+    padding-left: 15px;
+}
+
+.endnav {
     float: right;
     padding-right: 16px;
+    opacity: 0.87;
+}
+
+#signin {
+    margin-top: -7px;
+    margin-right: 22px;
+    margin-left: 44px;
+    color: white;
+    background-color: #4285f4;
+    border: 1px solid #4285f4;
+    padding: 0px 12px;
+    font-weight: bold;
+    cursor: default;
+    text-decoration: none;
+    border-radius: 2px;
+    opacity: 1.0;
+    display: inline-block;
+    line-height: 28px;
+
 }
 
 .foot {
@@ -86,12 +111,28 @@ a:visited {
     display: inline;
 }
 
-#startfoot {
-    padding-left: 27px;
+#sf1 {
+    padding-left: 30px;
+}
+
+#sf2 {
+    padding-left: 23px;
+}
+
+#sf3 {
+    padding-left: 24px;
 }
 
 #endfoot {
-    padding-right: 27px;
+    padding-right: 28px;
     float: right;
 }
-/* float right reversing order*/
+
+.startfoot, #endfoot {
+    color: #5f6368;
+    opacity: 1.0;
+}
+
+a #endnav {
+    color: rgba(0,0,0,0.87);
+}
